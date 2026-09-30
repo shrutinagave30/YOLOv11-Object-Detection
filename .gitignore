@@ -1,0 +1,53 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# YOLO training outputs
+runs/
+wandb/
+mlruns/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Datasets
+datasets/
+dataset/
+data/
+
+# Generated images / results
+result.jpg
+scene.jpg
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Archive files
+*.zip
